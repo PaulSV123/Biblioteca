@@ -4,16 +4,27 @@
 :host {
     font-style: italic;
     color: $principal_h1;
+    margin: 0;
+    padding: 0;
 }
-:host-context(body.blue) header{
-    width: 100%;
-    background-color: #000000;
-    border-bottom: solid 1px #000000;
+
+:host body{
+    padding: 1%;
 }
-:host-context(body.blue) p {
-    color: #db340b;
-  }
-:host-context(body.blue) menu {
+
+:host header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: #80753f;
+    font-weight: 600;
+}
+:host menu {
+    color: rgba(234, 230, 230, 0.771);
     margin: 0px;
     padding: 0px;
     display: flex;
@@ -21,4 +32,8 @@
     align-items: center;
     align-content: center;
     justify-content: space-between;
+}
+
+:host p {
+    margin-right: 1.5rem;
 }

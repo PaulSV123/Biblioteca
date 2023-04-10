@@ -9,6 +9,7 @@ import { Libros } from './common/datos';
 export class AppComponent {
   title = 'Bliblioteca';
   Estante: Libros;
+  aleatorio:Number = Math.floor(Math.random() * 100);
 
   constructor(){
     this.Estante = {
