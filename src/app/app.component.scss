@@ -13,7 +13,57 @@ button {
     font-size: 1em;
     font-weight: 500;
     font-family: inherit;
-    background-color: #1a1a1a;
+    background-color: #9d922c8e;
     cursor: pointer;
     transition: border-color 0.25s;
   }
+.my-form {
+  transition:0.5s linear all;
+  background: white;
+}
+.my-form.ng-invalid {
+  background: red;
+  color:white;
+}
+details {
+  font-style: italic;
+  border: 1px solid #aaa;
+  width: 95%;
+  border-radius: 25px;
+  padding: .5em .5em 0;
+}
+
+summary {
+  font-weight: bold;
+  margin: -.5em -.5em 0;
+  padding: .5em;
+}
+
+details[open] {
+  padding: .5em;
+}
+
+details[open] summary {
+  border-bottom: 1px solid #aaa;
+  margin-bottom: .5em;
+}
+
+.content-box {
+  box-sizing: content-box;
+  width: 20%;
+  padding: 10px;
+  border: 1px solid rgb(0, 0, 0);
+  background: #cebf71;
+}
+
+time {
+  font-weight: bold;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  background-color: #45a1ff;
+  color: #fff;
+}

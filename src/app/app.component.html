@@ -1,13 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
 <!-- Creacion del header -->
 <app-header></app-header>
 <!-- Creacion del body -->
-<h1>Esto es una prueba de mi {{title}}</h1>
-<br>
-<p>Mi libro su ID es: {{Estante.id}}</p>
-<p>Mi libro su Titulo es: {{Estante.Titulo}}</p>
-<p>Mi libro su Autor es: {{Estante.Autor}}</p>
-<p>Mi libro su Fecha es del: {{Estante.Fecha}}</p>
-<p>Mi numero aleatorio es: {{aleatorio}}</p>
-
+<body>
+    <div style="text-align:center">
+        <h1>Esto es una prueba de mi {{title}}</h1>
+    </div>
+    <br />
+    <div style="text-align:center">
+        <div class="content-box">
+            <details>
+                <summary>Detalles del libro 1</summary>
+                <p>Mi libro su ID es: {{Estante.id}}</p>
+                <p>Mi libro su Titulo es: {{Estante.Titulo}}</p>
+                <p>Mi libro su Autor es: {{Estante.Autor}}</p>
+                <p>Mi libro su Fecha es del: {{Estante.Fecha}}</p>
+                <p>Mi numero aleatorio es: {{aleatorio}}</p>
+            </details>
+            <br />
+            <button type="button">
+                Modificar el libro
+            </button>
+        </div>
+    </div>
+    <br>
+    <div style="text-align:center">
+        <div class="content-box">
+            <details>
+                <summary>Detalles del libro 1</summary>
+                <p>Mi libro su ID es: {{Estante.id}}</p>
+                <p>Mi libro su Titulo es: {{Estante.Titulo}}</p>
+                <p>Mi libro su Autor es: {{Estante.Autor}}</p>
+                <p>Mi libro su Fecha es del: {{Estante.Fecha}}</p>
+                <p>Mi numero aleatorio es: {{aleatorio}}</p>
+            </details>
+            <br />
+            <button type="button">
+                Modificar el libro
+            </button>
+        </div>
+    </div>
+    <br>
+    <div style="text-align:center">
+        <div class="content-box">
+            <details>
+                <summary>Detalles del libro 1</summary>
+                <p>Mi libro su ID es: {{Estante.id}}</p>
+                <p>Mi libro su Titulo es: {{Estante.Titulo}}</p>
+                <p>Mi libro su Autor es: {{Estante.Autor}}</p>
+                <p>Mi libro su Fecha es del: {{Estante.Fecha}}</p>
+                <p>Mi numero aleatorio es: {{aleatorio}}</p>
+            </details>
+            <br />
+            <button type="button">
+                Modificar el libro
+            </button>
+        </div>
+    </div>
+</body>
 
 <router-outlet></router-outlet>
+
+</html>

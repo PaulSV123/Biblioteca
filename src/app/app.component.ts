@@ -13,11 +13,10 @@ export class AppComponent {
 
   constructor(){
     this.Estante = {
-      id: 1,
-      Titulo: 'Mis Hojas',
-      Autor: 'Saul Servantes',
-      Fecha: '2017-05-20',
-    }
+        id: 1,
+        Titulo: 'Mis Hojas',
+        Autor: 'Saul Servantes',
+        Fecha: '2017-05-20',
+      }
   }
-
 }

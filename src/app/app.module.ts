@@ -7,13 +7,17 @@ import { PruebaComponent } from './prueba/prueba.component';
 import { HeaderComponent } from './header/header.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { RouterModule } from '@angular/router';
+import { AcercaComponent } from './acerca/acerca.component';
+import { MotivacionComponent } from './motivacion/motivacion.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     PruebaComponent,
     HeaderComponent,
-    NavbarComponent
+    NavbarComponent,
+    AcercaComponent,
+    MotivacionComponent
   ],
   imports: [
     BrowserModule,
