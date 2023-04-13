@@ -7,7 +7,7 @@ import { Libros } from './common/datos';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'Bliblioteca';
+  title = 'Biblioteca';
   Estante: Libros;
   aleatorio:Number = Math.floor(Math.random() * 100);
 
