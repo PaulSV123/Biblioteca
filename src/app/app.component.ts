@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { Libros } from './common/datos';
+import { getLocaleDateTimeFormat } from '@angular/common';
 
 @Component({
   selector: 'app-root',
@@ -10,6 +11,7 @@ export class AppComponent {
   title = 'Biblioteca';
   Estante: Libros;
   aleatorio:Number = Math.floor(Math.random() * 100);
+  tiempo:Date = new Date(Date.UTC(2023, 4, 14));
 
   constructor(){
     this.Estante = {
