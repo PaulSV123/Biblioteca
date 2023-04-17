@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { Libros } from './common/datos';
 import { getLocaleDateTimeFormat } from '@angular/common';
+import { NgOptimizedImage } from '@angular/common'
 
 @Component({
   selector: 'app-root',
@@ -11,14 +12,14 @@ export class AppComponent {
   title = 'Biblioteca';
   Estante: Libros;
   aleatorio:Number = Math.floor(Math.random() * 100);
-  tiempo:Date = new Date(Date.UTC(2023, 4, 14));
+  tiempo:Date = new Date(Date.UTC(2023, 4, 18));
 
   constructor(){
     this.Estante = {
         id: 1,
-        Titulo: 'Mis Hojas',
-        Autor: 'Saul Servantes',
-        Fecha: '2017-05-20',
+        Titulo: 'La ciudad y los perros',
+        Autor: 'Mario Vargas Llosa',
+        Fecha: '1963',
       }
   }
 }
