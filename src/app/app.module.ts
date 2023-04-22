@@ -9,6 +9,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { RouterModule } from '@angular/router';
 import { AcercaComponent } from './acerca/acerca.component';
 import { MotivacionComponent } from './motivacion/motivacion.component';
+import { Error404Component } from './error404/error404.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { MotivacionComponent } from './motivacion/motivacion.component';
     HeaderComponent,
     NavbarComponent,
     AcercaComponent,
-    MotivacionComponent
+    MotivacionComponent,
+    Error404Component
   ],
   imports: [
     BrowserModule,

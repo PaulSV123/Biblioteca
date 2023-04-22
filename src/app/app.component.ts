@@ -8,6 +8,7 @@ import { NgOptimizedImage } from '@angular/common'
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
+
 export class AppComponent {
   title = 'Biblioteca';
   Libro1: Libros;Libro2: Libros;Libro3: Libros;
@@ -15,6 +16,11 @@ export class AppComponent {
   tiempo:Date = new Date(Date.UTC(2023, 4, 18));
 
   constructor(){
+    
+    function redireccionar(url: string): void {
+      window.location.href = url;
+    }
+
     this.Libro1 = {
         id: 1,
         Titulo: 'La ciudad y los perros',
