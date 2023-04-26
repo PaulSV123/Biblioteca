@@ -2,6 +2,9 @@ import { Component } from '@angular/core';
 import { Libros } from './common/datos';
 import { getLocaleDateTimeFormat } from '@angular/common';
 import { NgOptimizedImage } from '@angular/common'
+import { NgModule } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -10,12 +13,15 @@ import { NgOptimizedImage } from '@angular/common'
 })
 
 export class AppComponent {
+  [x: string]: any;
   title = 'Biblioteca';
   Libro1: Libros;Libro2: Libros;Libro3: Libros;
   aleatorio:Number = Math.floor(Math.random() * 100);
   tiempo:Date = new Date(Date.UTC(2023, 4, 18));
 
-  constructor(){
+  constructor(
+    private router: Router,
+  ){
     
     function redireccionar(url: string): void {
       window.location.href = url;
@@ -51,5 +57,9 @@ export class AppComponent {
       Autor: 'Mario Vargas Llosa',
       Fecha: '1963',
     }; */
+  }
+  funcion_acerca(url: string): void {
+    console.log("Funciona",url);
+    this.router.navigate([url])
   }
 }
