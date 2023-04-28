@@ -34,6 +34,14 @@
     justify-content: space-between;
 }
 
-:host p {
+p {
     margin-right: 1.5rem;
-}
+    font-size: 20px;
+    color: rgba(234, 230, 230, 0.771);
+    text-shadow: none;
+  }
+  
+  /* Estilo cuando el cursor está encima del párrafo */
+  p:hover {
+    text-shadow: 0 0 10px white;
+  }

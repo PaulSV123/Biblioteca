@@ -58,7 +58,7 @@ export class AppComponent {
       Fecha: '1963',
     }; */
   }
-  funcion_acerca(url: string): void {
+  funcion_volver(url: string): void {
     console.log("Funciona",url);
     this.router.navigate([url])
   }
