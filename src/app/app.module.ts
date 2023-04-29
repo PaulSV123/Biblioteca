@@ -10,6 +10,7 @@ import { RouterModule } from '@angular/router';
 import { AcercaComponent } from './acerca/acerca.component';
 import { MotivacionComponent } from './motivacion/motivacion.component';
 import { Error404Component } from './error404/error404.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -24,6 +25,7 @@ import { Error404Component } from './error404/error404.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
+    BrowserAnimationsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

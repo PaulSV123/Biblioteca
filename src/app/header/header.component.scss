@@ -1,5 +1,6 @@
 
 @import "../colors/C-colors.scss";
+@import "../../../node_modules/primeicons/primeicons.css";
 
 :host {
     font-style: italic;
@@ -36,7 +37,7 @@
 
 p {
     margin-right: 1.5rem;
-    font-size: 20px;
+    font-size: 17px;
     color: rgba(234, 230, 230, 0.771);
     text-shadow: none;
   }

@@ -1,6 +1,6 @@
 # Bliblioteca
 
-Biblioteca realizado en Angular y Node.js(version 1.2)
+Biblioteca realizado en <img src="https://img.shields.io/badge/angular%20-%23DD0031.svg?&style=for-the-badge&logo=angular&logoColor=white"/> y <img src="https://img.shields.io/badge/node.js%20-%2343853D.svg?&style=for-the-badge&logo=node.js&logoColor=white"/> (version 1.2)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.3.
 
