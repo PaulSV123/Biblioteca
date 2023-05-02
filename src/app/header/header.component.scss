@@ -15,10 +15,10 @@
 
 :host header {
     position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 60px;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 45px;
     display: flex;
     align-items: center;
     background-color: #80753f;
@@ -26,13 +26,22 @@
 }
 :host menu {
     color: rgba(234, 230, 230, 0.771);
-    margin: 0px;
+    margin: 12px;
     padding: 0px;
     display: flex;
     list-style: none;
     align-items: center;
     align-content: center;
     justify-content: space-between;
+}
+
+.content {
+    display: flex;
+    margin: 82px auto 32px;
+    padding: 0 16px;
+    max-width: 960px;
+    flex-direction: column;
+    align-items: center;
 }
 
 p {
