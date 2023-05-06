@@ -8,7 +8,24 @@
         <h1>Esto es una prueba de mi {{title}}</h1>
         <h2>La hora actual de nuestro sistema es: <time>{{tiempo}}</time> </h2>
     </div>
-    <br />
+
+    <div style="display: flex; justify-content: center; align-items: center; height: 10vh;" class="container">
+        <div style="text-align:center">
+            <div class="content-box">
+                <button type="button">
+                    Agregar un Libro
+                </button>
+                &nbsp;
+                <button type="button" (click)="funcion_listar_libros('listar-libros')">
+                    Listar Libros
+                </button>
+                &nbsp;
+                <button type="button">
+                    Borrar  un Libro
+                </button>
+            </div>
+        </div>
+    </div>
 
     <div class="container">
       <div style="text-align:center">

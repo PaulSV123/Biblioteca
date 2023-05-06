@@ -58,6 +58,10 @@ export class InicioComponent implements OnInit {
     this.router.navigate([url])
   }
 
+  funcion_listar_libros(url: string): void {
+    this.router.navigate([url])
+  }
+
   ngOnInit(): void {
   }
 
