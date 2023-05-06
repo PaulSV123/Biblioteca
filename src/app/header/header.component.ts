@@ -37,4 +37,8 @@ export class HeaderComponent implements OnInit {
     this.router.navigate([url])
   }
 
+  funcion_inicio(url: string): void {
+    this.router.navigate([url])
+  }
+
 }

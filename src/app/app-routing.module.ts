@@ -4,6 +4,7 @@ import { PruebaComponent } from './prueba/prueba.component';
 import { AcercaComponent } from './acerca/acerca.component';
 import { MotivacionComponent } from './motivacion/motivacion.component';
 import { Error404Component } from './error404/error404.component';
+import { InicioComponent } from './inicio/inicio.component';
 import { AppComponent } from './app.component';
 
 const routes: Routes = [
@@ -11,7 +12,8 @@ const routes: Routes = [
   {path: 'acerca', component: AcercaComponent},
   {path: 'motivacion', component: MotivacionComponent},
   {path: 'error404', component: Error404Component},
-  {path: '', component: AppComponent},
+  {path: 'inicio', component: InicioComponent}
+  /* {path: '', component: AppComponent}, */
 ];
 
 @NgModule({

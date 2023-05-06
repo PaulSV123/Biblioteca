@@ -18,7 +18,7 @@
     top: 0px;
     left: 0px;
     right: 0px;
-    height: 45px;
+    height: 65px;
     display: flex;
     align-items: center;
     background-color: #80753f;
@@ -26,7 +26,7 @@
 }
 :host menu {
     color: rgba(234, 230, 230, 0.771);
-    margin: 12px;
+    margin: 58px;
     padding: 0px;
     display: flex;
     list-style: none;
@@ -46,7 +46,7 @@
 
 p {
     margin-right: 1.5rem;
-    font-size: 17px;
+    font-size: 20px;
     color: rgba(234, 230, 230, 0.771);
     text-shadow: none;
   }

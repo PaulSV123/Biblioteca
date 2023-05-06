@@ -11,6 +11,7 @@ import { AcercaComponent } from './acerca/acerca.component';
 import { MotivacionComponent } from './motivacion/motivacion.component';
 import { Error404Component } from './error404/error404.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { InicioComponent } from './inicio/inicio.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     NavbarComponent,
     AcercaComponent,
     MotivacionComponent,
-    Error404Component
+    Error404Component,
+    InicioComponent
   ],
   imports: [
     BrowserModule,
