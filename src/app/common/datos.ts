@@ -13,3 +13,10 @@ export interface Nuevos {
     id: Number;
     Cantidad: Number;
 }
+export interface Estanteria {
+    id: Number;
+    titulo: String;
+    autor: String;
+    tipo: String;
+    fechaPublicacion: Number;
+}
